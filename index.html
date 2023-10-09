@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" id="header">
+    <h1 class="header__title">
+        Михаил Ковтуненко
+    </h1>
+    <p class="header__subtitle">
+        фрилансер, веб-разработчик, создание сайтов
+    </p>
+    <a href="#portfolio" class="header__arrow">
+        <img src="./img/chevron-down.svg" alt="Arrow">
+    </a>
+</header>
+
+<main class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="portfolio__header">Портфолио</h2>
+    </div>
+    <div class="portfolio-cards-wrapper container">
+        <div class="card">
+            <a href="https://dailydev59.github.io/luxury_shop/" class="card__link">
+                <img class="card__image" src="./img/Italic _ Luxury without labels_1.jpg" alt="Luxury">
+                <h3 class="card__title">Адаптивный лендинг, интернет-магазин</h3>
+                <p>Верстка одностраничного сайта на чистом HTML и CSS.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://dailydev59.github.io/gaming_platform/" class="card__link">
+                <img class="card__image" src="./img/gaming_platform.jpg" alt="Gaming">
+                <h3 class="card__title">Многостраничный сайт, разработка электронных игр</h3>
+                <p>Верстка многостраничного сайта на чистом HTML и CSS.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://dailydev59.github.io/panteon/" class="card__link">
+                <img class="card__image" src="./img/panteon.jpg" alt="Personal">
+                <h3 class="card__title">Адаптивный лендинг, фитнес-клуб</h3>
+                <p>Верстка одностраничного сайта, HTML, CSS, JS, slick-слайдеры, popup-формы.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://dailydev59.github.io/Generation_travel/" class="card__link">
+                <img class="card__image" src="./img/generation_travel.jpg" alt="Travel">
+                <h3 class="card__title">Многостраничный сайт, туристическое агентство</h3>
+                <p>Верстка сайта в сборщике Gulp-4, использование SCSS, автоматическая подготовка к релизу, GitHub.</p>
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer__copyright footer__col">
+                <div class="footer__copyright_name">
+                    © Михаил Ковтуненко
+                </div>
+                <div class="footer__copyright_content">
+                    HTML верстка и разработка сайтов
+                </div>
+            </div>
+            <div class="footer__icons footer__col">
+                <p>Мои контакты в социальных сетях:</p>
+                <div class="footer__icons_links">
+                    <a href="https://t.me/Daily_in_Telegram">
+                        <img src="./img/svg/telegram.svg" alt="Telegram">
+                    </a>
+                    <a href="https://wa.me/79261316840">
+                        <img src="./img/svg/whatsapp.svg" alt="WhatsApp">
+                    </a>                    
+                    <a href="#">
+                        <img src="./img/svg/github.svg" alt="Github">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__contacts footer__col">
+                <a href="https://wa.me/79261316840" class="footer__button">
+                    Связаться через WhatsApp
+                </a>
+                <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Библиотеки и плагины-->
+
+<script src="./libs/jquery/jquery-3.6.4.min.js"></script>
+<script src="./libs/vide/jquery.vide.min.js"></script>
+
+<!--Собственные скрипты и вызовы библиотек-->
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
