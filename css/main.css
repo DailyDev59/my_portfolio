@@ -12,6 +12,15 @@ body {
 
 }
 
+/* alex-brush-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alex Brush';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/alex-brush-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
 .container {
     max-width: 1110px;
 
@@ -51,6 +60,14 @@ img {
     color: #FFFFFF;
     line-height: 130%;
     text-align: center;
+}
+
+.header h5 {
+    color: #efeda7;
+    font-family: 'Alex Brush', sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    margin: 0 auto 20px;
 }
 
 .header__subtitle {
@@ -117,7 +134,7 @@ img {
 }
 
 .card__link:hover {
-    color: rgb(41, 94, 241);
+    color: #000000;
 }
 
 .card__image {
