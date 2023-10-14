@@ -207,8 +207,12 @@ img {
     align-items: center;    
 }
 
-.footer__icons_links > * {
+.footer__icons_links a img[alt="Telegram"] {
     margin-right: 37px;
+}
+
+.footer__icons_links a img[alt="WhatsApp"] {    
+    margin-right: 35px;
 }
 
 a:last-child {
