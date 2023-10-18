@@ -121,3 +121,9 @@
         padding: 0 10px;
     }
 }
+
+@media (max-width: 381px) {
+    .footer__button {
+        height: auto;
+    }
+}
