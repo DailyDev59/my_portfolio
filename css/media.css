@@ -110,10 +110,6 @@
         margin: 0 auto 50px;
     }
 
-    a:last-child {
-        margin: auto;
-    }
-
     .project__button {
         width: 100%;
         max-width: 320px;
